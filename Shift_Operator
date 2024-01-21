@@ -10,17 +10,17 @@ class HelloWorld
 		
 		byte ansByte = (byte) Ans;
 		
-		System.out.println(Ans+"\n");
+		System.out.println("1. " + (Ans));
 		
-		System.out.println(ansByte+"\n");
+		System.out.println("2. " + (ansByte));
 		
-		System.out.println(number >> 2);
+		System.out.println("3. " + (number >> 2));
 		
-		System.out.println( "1. " + (Ans >> 2));
+		System.out.println( "4. " + (Ans >> 2));
 		
-		System.out.println( "2. " + (Ans << 2));
+		System.out.println( "5. " + (Ans << 2));
 		
-		System.out.println( "3. " + (Ans << 2));
+		System.out.println( "6. " + (Ans << 2));
 	}
 }
 
