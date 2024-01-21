@@ -1,0 +1,15 @@
+static int getLastDigit(String a, String b) {
+        // code here
+        int n1 = 1,n2 = 1;
+        try
+        {
+             n1 = Integer.parseInt(a);
+             n2 = Integer.parseInt(b);
+        }
+        catch (Exception e)
+        {
+               
+        }
+       
+        return (n1 ^ n2) % 10 ;
+    }
